@@ -9,7 +9,49 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8153efa4-0537-4ea2-ad6c-81d2263e6deb" name="Changes" comment="" />
+    <list default="true" id="2b37dbf7-13c6-47d0-93a5-098f90e86286" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AI.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AK.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AO.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AW.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AX.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AY.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AZ.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BD.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BH.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BK.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BL.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BM.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BN.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BO.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BP.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BT.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BW.csv" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +69,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2JoM6hV2AIjXXtg9OBM9U4MQ6tQ" />
+  <component name="ProjectId" id="2JrnswUmc2eT6UsdMalRrpbMSbH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,7 +83,7 @@
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="IMMO_estimation.app.main" />
+      <module name="immo_estimation.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -103,11 +145,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8153efa4-0537-4ea2-ad6c-81d2263e6deb" name="Changes" comment="" />
-      <created>1672739818631</created>
+      <changelist id="2b37dbf7-13c6-47d0-93a5-098f90e86286" name="Changes" comment="" />
+      <created>1672845288299</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1672739818631</updated>
+      <updated>1672845288299</updated>
     </task>
     <servers />
   </component>
