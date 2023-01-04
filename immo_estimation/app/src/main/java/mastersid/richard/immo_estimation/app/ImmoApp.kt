@@ -1,4 +1,7 @@
 package mastersid.richard.immo_estimation.app
 
-class ImmoApp {
-}
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class ImmoApp : Application()
