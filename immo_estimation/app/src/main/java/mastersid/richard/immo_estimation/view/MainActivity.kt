@@ -1,7 +1,8 @@
-package mastersid.richard.immo_estimation
+package mastersid.richard.immo_estimation.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import mastersid.richard.immo_estimation.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

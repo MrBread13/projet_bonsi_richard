@@ -9,48 +9,21 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b37dbf7-13c6-47d0-93a5-098f90e86286" name="Changes" comment="">
+    <list default="true" id="114ce7d2-a146-45b5-94bc-5334f1f18913" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AB.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AD.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AE.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AH.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AI.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AK.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AL.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AM.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AO.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AR.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AS.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AV.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AW.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AX.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AY.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000AZ.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BC.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BD.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BE.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BH.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BK.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BL.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BM.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BN.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BO.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BR.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BS.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BV.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../transactions-ser/76575_000BW.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/mastersid/richard/immo_estimation/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +36,20 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2JrnswUmc2eT6UsdMalRrpbMSbH" />
+  <component name="ProjectId" id="2JrrxlI2CdyIcgVZd1ElxAp4VLF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -80,6 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/CryptoCc" />
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -145,12 +126,23 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2b37dbf7-13c6-47d0-93a5-098f90e86286" name="Changes" comment="" />
-      <created>1672845288299</created>
+      <changelist id="114ce7d2-a146-45b5-94bc-5334f1f18913" name="Changes" comment="" />
+      <created>1672847291480</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1672845288299</updated>
+      <updated>1672847291480</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
