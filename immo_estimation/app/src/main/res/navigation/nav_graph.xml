@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/infoFragment">
+
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="mastersid.richard.immo_estimation.view.InfoFragment"
+        android:label="InfoFragment"
+        tools:layout="@layout/fragment_info" >
+        <action
+            android:id="@+id/action_infoFragment_to_estimFragment"
+            app:destination="@id/estimFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/estimFragment"
+        android:name="mastersid.richard.immo_estimation.view.EstimFragment"
+        android:label="EstimFragment"
+        tools:layout="@layout/fragment_estim">
+        <action
+            android:id="@+id/action_estimFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+
+</navigation>

@@ -97,5 +97,16 @@
 
     </LinearLayout>
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/goToEstimate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#524E4E"
+        android:backgroundTintMode="screen"
+        android:text="@string/back" />
 
 </LinearLayout>

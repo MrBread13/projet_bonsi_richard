@@ -2,11 +2,16 @@ package mastersid.richard.immo_estimation.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import mastersid.richard.immo_estimation.R
+import dagger.hilt.android.AndroidEntryPoint
+import mastersid.richard.immo_estimation.databinding.ActivityMainBinding
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
+        val binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
     }
 }
