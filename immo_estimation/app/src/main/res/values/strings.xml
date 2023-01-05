@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">immo_estimation</string>
+    <string name="title">Estimation du prix immobilier de Saint-Etienne-du-Rouvray</string>
 </resources>
