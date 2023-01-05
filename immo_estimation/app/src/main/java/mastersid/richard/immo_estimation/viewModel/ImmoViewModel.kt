@@ -19,7 +19,7 @@ class ImmoViewModel @Inject constructor(
 ) : ViewModel() {
 
     private val _resultEstim : MutableLiveData<EstimResult> = state.getLiveData(STATE_ENCRYPT_RESULT, EstimResult.None)
-    val resultTextEncrypt: LiveData<EstimResult> = _resultEstim
+    val resultEstim: LiveData<EstimResult> = _resultEstim
 
     fun test() {
         try {

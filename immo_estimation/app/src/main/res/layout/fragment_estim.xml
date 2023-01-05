@@ -69,12 +69,13 @@
         android:layout_height="30dp" />
 
     <LinearLayout
-        android:id="@+id/errorEncryptText"
+        android:id="@+id/error"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >
 
         <ImageView
+            android:id="@+id/warning"
             android:contentDescription="oh"
             android:layout_width="100dp"
             android:layout_height="100dp"
