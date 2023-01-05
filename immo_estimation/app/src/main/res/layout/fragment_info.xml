@@ -141,8 +141,8 @@
         android:id="@+id/goToEstimate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/send"
         android:backgroundTint="#524E4E"
-        android:backgroundTintMode="screen"/>
+        android:backgroundTintMode="screen"
+        android:text="@string/send" />
 
 </LinearLayout>

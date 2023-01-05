@@ -8,6 +8,7 @@
     <string name="info2">ecrire ici la donnée 2</string>
     <string name="desc3">données 3 :</string>
     <string name="info3">ecrire ici la donnée 3</string>
-
     <string name="send">envoyer</string>
+    <string name="result">(Estimation)</string>
+    <string name="unite">€</string>
 </resources>
