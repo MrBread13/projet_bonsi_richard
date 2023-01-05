@@ -26,5 +26,17 @@ class InfoFragment: Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        binding.goToEstimate.setOnClickListener(){
+            try {
+                val data1 = binding.data1.text.toString().toInt()
+                val data2 = binding.data2.text.toString().toInt()
+                val data3 = binding.data3.text.toString().toInt()
+                val action = InfoFragmentDirections.actionInfoFragmentToEstimFragment()
+                findNavController().navigate(action)
+            } catch (e: java.lang.NumberFormatException) {
+                val action = InfoFragmentDirections.actionInfoFragmentToEstimFragment()
+            }
+
+        }
     }
 }
