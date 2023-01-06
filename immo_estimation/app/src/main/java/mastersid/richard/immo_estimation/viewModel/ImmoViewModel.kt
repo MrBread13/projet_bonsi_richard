@@ -10,7 +10,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlin.IllegalArgumentException
 
-private const val STATE_ENCRYPT_RESULT = "state_estim_result"
+private const val STATE_ESTIM_RESULT = "state_estim_result"
 
 @HiltViewModel
 class ImmoViewModel @Inject constructor(
@@ -18,7 +18,7 @@ class ImmoViewModel @Inject constructor(
     private val ImmoUtil : ImmoUtil
 ) : ViewModel() {
 
-    private val _resultEstim : MutableLiveData<EstimResult> = state.getLiveData(STATE_ENCRYPT_RESULT, EstimResult.None)
+    private val _resultEstim : MutableLiveData<EstimResult> = state.getLiveData(STATE_ESTIM_RESULT, EstimResult.None)
     val resultEstim: LiveData<EstimResult> = _resultEstim
 
     fun estimation(terrain : Float, batiment : Float, nb_pieces : Int) {

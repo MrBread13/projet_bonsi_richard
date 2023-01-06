@@ -44,11 +44,13 @@ class EstimFragment: Fragment() {
                    binding.resultText.visibility = View.GONE
                    binding.euro.visibility = View.GONE
                    binding.error.visibility = View.GONE
+                   Log.d("value: ", "yo")
                }
                is EstimResult.Estimated -> {
                    binding.resultText.visibility = View.VISIBLE
                    binding.euro.visibility = View.VISIBLE
                    binding.error.visibility = View.GONE
+                   Log.d("value: ", "$value")
                    binding.resultText.text = value.toString()
                }
                is EstimResult.Failed -> {
