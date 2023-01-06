@@ -9,5 +9,5 @@ interface ImmoUtil {
      *
      */
 
-    fun test(): Int
+    fun Estimate(terrain : Float, batiment : Float, nb_pieces : Int): Float
 }

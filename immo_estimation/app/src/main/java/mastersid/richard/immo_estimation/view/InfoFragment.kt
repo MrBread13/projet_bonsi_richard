@@ -10,7 +10,6 @@ import androidx.navigation.fragment.findNavController
 import dagger.hilt.android.AndroidEntryPoint
 import mastersid.richard.immo_estimation.databinding.FragmentInfoBinding
 import mastersid.richard.immo_estimation.viewModel.ImmoViewModel
-import java.lang.IllegalArgumentException
 
 @AndroidEntryPoint
 class InfoFragment: Fragment() {
@@ -33,10 +32,10 @@ class InfoFragment: Fragment() {
 
         binding.goToEstimate.setOnClickListener(){
             try {
-                val data1 = binding.data1.text.toString().toInt()
-                val data2 = binding.data2.text.toString().toInt()
-                val data3 = binding.data3.text.toString().toInt()
-                ImmoViewModel.test()
+                var terrain = binding.dataTerrain.text.toString().toFloat()
+                var batiment = binding.dataBatiment.text.toString().toFloat()
+                var nb_pieces = binding.dataNbPieces.text.toString().toInt()
+                ImmoViewModel.estimation(terrain,batiment,nb_pieces)
                 val action = InfoFragmentDirections.actionInfoFragmentToEstimFragment()
                 findNavController().navigate(action)
             } catch (e: java.lang.NumberFormatException) {

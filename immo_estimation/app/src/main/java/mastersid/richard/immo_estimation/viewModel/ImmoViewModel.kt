@@ -21,13 +21,12 @@ class ImmoViewModel @Inject constructor(
     private val _resultEstim : MutableLiveData<EstimResult> = state.getLiveData(STATE_ENCRYPT_RESULT, EstimResult.None)
     val resultEstim: LiveData<EstimResult> = _resultEstim
 
-    fun test() {
+    fun estimation(terrain : Float, batiment : Float, nb_pieces : Int) {
         try {
-            _resultEstim.value = EstimResult.Estimated(ImmoUtil.test())
+            _resultEstim.value = EstimResult.Estimated(ImmoUtil.Estimate(terrain, batiment, nb_pieces))
         } catch (e: IllegalArgumentException){
             _resultEstim.value = EstimResult.Failed(e.message.toString())
         }
-
     }
 
 }
