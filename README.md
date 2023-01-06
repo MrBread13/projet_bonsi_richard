@@ -1,3 +1,4 @@
+# projet_bonsi_richard
 # Bienvenue sur le repo Github du mini projet du Semestre 1 de Master SID, par Valentin BONSI et Nathant RICHARD
 
 ## Description du projet
@@ -33,10 +34,11 @@ Ces données sont très riches et contiennent beaucoup d'informations, la plupar
 Nous avons donc dû les trier, comme vous pourrez le voir plus bas.
 ## Présentation de l'application
 L'application est composée d'une interface simple :
-- Une selection entre Maison et Appartement
+
 - Un champ pour entrer la surface du bien
 - Un champ pour entrer la surface du terrain
 - Un champ pour entrer le nombre de pièces
+- Une selection entre Maison et Appartement (non fonctionnelle)
 - Une liste de selection de la section cadastrale (non fonctionnelle)
 - Un calendrier permettant de choisir le mois de la vente (non fonctionnelle)
 
@@ -49,4 +51,6 @@ La section cadastrale ainsi que le mois de vente prennent par défaut des valeur
 
 Le modèle de regression linéaire a été entraîné au préalable à partir d'un programme en python qui a servit à effectuer toutes les recherches. Seuls les coefficients extraits de la regression ont été importés dans l'application Android à des fins de poids et de vitesse d'exécution.
 
+## Méthodologie utilisée pour explorer, trier et utiliser les données pour trouver les coefficients de regression
 
+Un notebook Jupyter a été utilisé pour explorer les données, et trouver les coefficients de regression. Ce notebook est disponible dans le dossier 'research' sous le nom 'visualization.ipynb' et contient tous les graphiques et commentaires nécessaires à la compréhension de la démarche.
