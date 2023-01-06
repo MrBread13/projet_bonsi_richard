@@ -21,7 +21,10 @@ class ImmoViewModel @Inject constructor(
 
     private val _resultEstim : MutableLiveData<EstimResult> = state.getLiveData(STATE_ESTIM_RESULT, EstimResult.None)
     val resultEstim: LiveData<EstimResult> = _resultEstim
-
+    /**
+     * stock dans la MutableLiveData le résultat de l'estimation par la fonction du backend Estimate
+     * sinon stock dans la MutableLiveData le message d'erreur.
+     */
     fun estimation(terrain: Float, batiment: Float, nb_pieces: Int) {
         try {
             _resultEstim.value = EstimResult.Estimated(ImmoUtil.Estimate(terrain, batiment, nb_pieces))

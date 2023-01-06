@@ -29,6 +29,12 @@ class EstimFragment: Fragment() {
         return binding.root
     }
 
+    /**
+     * récupère les arguments de infoFragment,
+     * si le bouton retour est pressé, on retourne sur la view précédente.
+     * appel la fonction estimation du viewModel, ensuite observe la LiveData et en fonction d'elle
+     * adapte l'affichage.
+     */
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 

@@ -24,10 +24,15 @@ class InfoFragment: Fragment() {
         return binding.root
     }
 
+    /**
+     * reception des inputs par l'utilisateur sur le layout,
+     * puis navigue sur la view fragment_estim.xml en les passant en argument.
+     */
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         binding.goToEstimate.setOnClickListener(){
+
             var terrain = binding.dataTerrain.text.toString().toFloat()
             var batiment = binding.dataBatiment.text.toString().toFloat()
             var nb_pieces = binding.dataNbPieces.text.toString().toInt()
