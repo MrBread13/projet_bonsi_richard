@@ -6,7 +6,7 @@
     <string name="desc_terrain">surface terrain :</string>
     <string name="info_surface">en m2</string>
     <string name="desc_local">Maison ou Appart :</string>
-
+    <string name="error">Les données saisies sont érronées</string>
     <string name="desc_nb_pieces">nombre de pièces :</string>
     <string name="info_nb_pieces">nb de pièces</string>
     <string name="send">envoyer</string>

@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="20dp" />
 
-    <!-- Object containing the information and the EditText for put data 1. -->
+    <!-- Object containing the information and the EditText for put 'surface batiment'. -->
     <LinearLayout
         android:id="@+id/block_batiment"
         android:layout_width="match_parent"
@@ -70,9 +70,9 @@
         android:layout_width="match_parent"
         android:layout_height="20dp" />
 
-    <!-- Object containing the information and the EditText for put data 2. -->
+    <!-- Object containing the information and the EditText to insert 'surface . -->
     <LinearLayout
-        android:id="@+id/block_surface"
+        android:id="@+id/block_terrain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">

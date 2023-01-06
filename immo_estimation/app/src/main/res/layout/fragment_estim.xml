@@ -36,6 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="30dp" />
 
+    <!-- display of the estimation -->
     <LinearLayout
         android:id="@+id/result"
         android:layout_width="match_parent"
@@ -67,6 +68,8 @@
         android:layout_width="match_parent"
         android:layout_height="30dp" />
 
+
+    <!-- diplay when there is an error -->
     <LinearLayout
         android:id="@+id/error"
         android:layout_width="match_parent"
@@ -90,7 +93,7 @@
             android:id="@+id/errorResultChar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text='Les données saisies sont érronées.'
+            android:text='@string/error'
             android:layout_gravity="center"
             android:textSize="20sp"
             android:textColor="@color/design_default_color_error" />
