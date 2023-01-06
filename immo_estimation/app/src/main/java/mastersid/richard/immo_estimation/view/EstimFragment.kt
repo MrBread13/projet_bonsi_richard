@@ -1,7 +1,6 @@
 package mastersid.richard.immo_estimation.view
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,7 +8,6 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import mastersid.richard.immo_estimation.R
 import dagger.hilt.android.AndroidEntryPoint
 import mastersid.richard.immo_estimation.data.EstimResult
 import mastersid.richard.immo_estimation.databinding.FragmentEstimBinding
@@ -40,6 +38,8 @@ class EstimFragment: Fragment() {
             val action = EstimFragmentDirections.actionEstimFragmentToInfoFragment()
             findNavController().navigate(action)
         }
+        ImmoViewModel.estimation(args.terrain, args.batiment, args.nbPieces)
+
         ImmoViewModel.resultEstim.observe(viewLifecycleOwner){
                 value ->
             when(value){
@@ -48,7 +48,6 @@ class EstimFragment: Fragment() {
                    binding.resultText.text = "Estimation indisponible"
                    binding.euro.visibility = View.GONE
                    binding.error.visibility = View.GONE
-                   Log.d("when -> none: ", "${value.toString()}")
                }
                is EstimResult.Estimated -> {
                    binding.resultText.visibility = View.VISIBLE

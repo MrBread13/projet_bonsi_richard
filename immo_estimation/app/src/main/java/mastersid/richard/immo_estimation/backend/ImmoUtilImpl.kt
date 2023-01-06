@@ -4,31 +4,17 @@ import android.util.Log
 import javax.inject.Inject
 
 class ImmoUtilImpl @Inject constructor(): ImmoUtil {
-    override fun Estimate(terrain : Float, surface_bati : Float, nb_pieces : Int, code_type_local : Char): Float {
-        /*
-        surface_bati =
-        jardin = surface_terrain - surface_bati
-        cadastre = cadastre
-        date = YYYY-MM sans le jour
-                nombre_pieces_principales = nb de piece
-        code_type_local =  appt (A) ou maison (M)
-        #caster la date en timestamps
-        ...
-        #associer le cadastre à son code
-        ...
-        */
-        x = surface_bati
-        y = surface_jardin
-        z = date_int
-        t = cadastre_code
-        u = nombre_pieces_principales
+    override fun Estimate(surface_terrain : Float, surface_bati : Float, nb_pieces : Int): Float {
 
-        if(code_type_local == 'A') {
-            return
-        }
-
-        if(code_type_local == 'M') {
-            return
-        }
+        var x = surface_bati
+        var y = surface_terrain - surface_bati
+        var z = 18170.0
+        var t = 3
+        var u = nb_pieces
+        return (487752.737 + (7168.382 * x) - ( 12257.693 * y) - (58.784 * z) + (13479.606 * t)
+                + (33.812 * (x*x)) - (0.278 * x * y) - (0.249 * x * z) - (220.587 * x * t)
+                - (1385.503 * x * u) - (0.053 * (y*y)) + (0.699 * y * z) + (0.0397 * y * t)
+                + (2.306 * y * u) + (0.0016 * (z*z)) + (0.254 * z * t) + (9.105 * z * u)
+                - (991.898 * (t * t)) + (2480.101 * t * u) + (14057.467 * (u*u))).toFloat()
     }
 }

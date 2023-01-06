@@ -27,19 +27,15 @@
             app:destination="@id/infoFragment" />
         <argument
             android:name="batiment"
-            app:argType="Float"
+            app:argType="float"
             />
         <argument
             android:name="terrain"
-            app:argType="Float"
+            app:argType="float"
             />
         <argument
             android:name="nb_pieces"
-            app:argType="Int"
-            />
-        <argument
-            android:name="local"
-            app:argType="Char"
+            app:argType="integer"
             />
     </fragment>
 

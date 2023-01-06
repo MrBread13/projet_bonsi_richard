@@ -14,7 +14,6 @@ import mastersid.richard.immo_estimation.viewModel.ImmoViewModel
 @AndroidEntryPoint
 class InfoFragment: Fragment() {
     private lateinit var binding: FragmentInfoBinding
-    private val ImmoViewModel: ImmoViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -28,19 +27,13 @@ class InfoFragment: Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
         binding.goToEstimate.setOnClickListener(){
-            try {
-                var terrain = binding.dataTerrain.text.toString().toFloat()
-                var batiment = binding.dataBatiment.text.toString().toFloat()
-                var nb_pieces = binding.dataNbPieces.text.toString().toInt()
-                var info_local = binding.dataLocal.text.toString()
-                val action = InfoFragmentDirections.actionInfoFragmentToEstimFragment()
-                findNavController().navigate(action)
-
-            } catch (e: java.lang.NumberFormatException) {
-                val action = InfoFragmentDirections.actionInfoFragmentToEstimFragment()
-            }
+            var terrain = binding.dataTerrain.text.toString().toFloat()
+            var batiment = binding.dataBatiment.text.toString().toFloat()
+            var nb_pieces = binding.dataNbPieces.text.toString().toInt()
+            val action = InfoFragmentDirections.actionInfoFragmentToEstimFragment(terrain, batiment, nb_pieces)
+            findNavController().navigate(action)
         }
+
     }
 }
