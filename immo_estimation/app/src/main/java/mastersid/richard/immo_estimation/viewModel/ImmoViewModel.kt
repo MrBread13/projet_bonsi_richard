@@ -1,5 +1,6 @@
 package mastersid.richard.immo_estimation.viewModel
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.SavedStateHandle
@@ -24,6 +25,7 @@ class ImmoViewModel @Inject constructor(
     fun estimation(terrain : Float, batiment : Float, nb_pieces : Int) {
         try {
             _resultEstim.value = EstimResult.Estimated(ImmoUtil.Estimate(terrain, batiment, nb_pieces))
+            Log.d("viewModel","${_resultEstim.value.toString()}")
         } catch (e: IllegalArgumentException){
             _resultEstim.value = EstimResult.Failed(e.message.toString())
         }

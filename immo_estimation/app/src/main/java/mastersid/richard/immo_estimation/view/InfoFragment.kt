@@ -29,19 +29,18 @@ class InfoFragment: Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 
-
         binding.goToEstimate.setOnClickListener(){
             try {
                 var terrain = binding.dataTerrain.text.toString().toFloat()
                 var batiment = binding.dataBatiment.text.toString().toFloat()
                 var nb_pieces = binding.dataNbPieces.text.toString().toInt()
-                ImmoViewModel.estimation(terrain,batiment,nb_pieces)
+                var info_local = binding.dataLocal.text.toString()
                 val action = InfoFragmentDirections.actionInfoFragmentToEstimFragment()
                 findNavController().navigate(action)
+
             } catch (e: java.lang.NumberFormatException) {
                 val action = InfoFragmentDirections.actionInfoFragmentToEstimFragment()
             }
-
         }
     }
 }

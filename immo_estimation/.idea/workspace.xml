@@ -15,10 +15,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/mastersid/richard/immo_estimation/backend/ImmoUtilImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mastersid/richard/immo_estimation/backend/ImmoUtilImpl.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/mastersid/richard/immo_estimation/view/EstimFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mastersid/richard/immo_estimation/view/EstimFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/mastersid/richard/immo_estimation/view/InfoFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mastersid/richard/immo_estimation/view/InfoFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/mastersid/richard/immo_estimation/viewModel/ImmoViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mastersid/richard/immo_estimation/viewModel/ImmoViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/CryptoCc" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/Dice" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">

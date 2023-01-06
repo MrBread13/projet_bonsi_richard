@@ -33,6 +33,9 @@ class EstimFragment: Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        val args: EstimFragmentArgs by navArgs()
+
         binding.goToEstimate.setOnClickListener(){
             val action = EstimFragmentDirections.actionEstimFragmentToInfoFragment()
             findNavController().navigate(action)
@@ -41,16 +44,16 @@ class EstimFragment: Fragment() {
                 value ->
             when(value){
                is EstimResult.None -> {
-                   binding.resultText.visibility = View.GONE
+                   binding.resultText.visibility = View.VISIBLE
+                   binding.resultText.text = "Estimation indisponible"
                    binding.euro.visibility = View.GONE
                    binding.error.visibility = View.GONE
-                   Log.d("value: ", "yo")
+                   Log.d("when -> none: ", "${value.toString()}")
                }
                is EstimResult.Estimated -> {
                    binding.resultText.visibility = View.VISIBLE
                    binding.euro.visibility = View.VISIBLE
                    binding.error.visibility = View.GONE
-                   Log.d("value: ", "$value")
                    binding.resultText.text = value.toString()
                }
                is EstimResult.Failed -> {
@@ -58,8 +61,6 @@ class EstimFragment: Fragment() {
                    binding.euro.visibility = View.GONE
                    binding.error.visibility = View.VISIBLE
                }
-
-
             }
         }
 

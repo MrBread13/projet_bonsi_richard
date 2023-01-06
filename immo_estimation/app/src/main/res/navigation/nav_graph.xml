@@ -25,6 +25,22 @@
         <action
             android:id="@+id/action_estimFragment_to_infoFragment"
             app:destination="@id/infoFragment" />
+        <argument
+            android:name="batiment"
+            app:argType="Float"
+            />
+        <argument
+            android:name="terrain"
+            app:argType="Float"
+            />
+        <argument
+            android:name="nb_pieces"
+            app:argType="Int"
+            />
+        <argument
+            android:name="local"
+            app:argType="Char"
+            />
     </fragment>
 
 </navigation>
